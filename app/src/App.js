@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header.js';
+import Playlist from './components/Playlist.js';
+import Album from './components/Album.js';
+
 
 function App() {
   return (
     <div className="container">
       <div className={"row"}>
-        <div className={"col-6"}>
-          <p>Hello</p>
-        </div>
-        <div className={"col-6"}>
-          <p>World</p>
-        </div>
+        <Header />
+        <Playlist />
       </div>
     </div>
   );
