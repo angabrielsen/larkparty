@@ -5,7 +5,6 @@ function Album() {
     <div className={"bg-warning"}>
       <div className={"col-12 col-md-7 d-md-none bg-primary"}>
         <Header />
-        <p>Header - Mobile</p>
       </div>
 
       <p>Album</p>

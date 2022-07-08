@@ -7,20 +7,17 @@ import Album from './components/Album.js';
 
 function App() {
   return (
-    <div className="container">
-      <div className={"row flex-row-reverse"}>
-        <div className={"col-md-5"}>
-          <Album />
+    <div className={"row flex-row-reverse gx-0"}>
+      <div className={"col-md-5"}>
+        <Album />
+      </div>
+
+      <div className={"col-md-7"}>
+        <div className={"d-none d-md-block bg-primary"}>
+          <Header />
         </div>
 
-        <div className={"col-md-7"}>
-          <div className={"d-none d-md-block bg-primary"}>
-            <Header />
-            <p>Header - Full</p>
-          </div>
-
-          <Playlist />
-        </div>
+        <Playlist />
       </div>
     </div>
   );
