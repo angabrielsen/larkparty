@@ -12,7 +12,7 @@ function Album() {
         <img src={cover} alt={"cover"} className={"w-100"} />
       </div>
 
-      <div className={"progress position-relative"} style={{height: '40px'}}>
+      <div className={"progress position-relative rounded-0"} style={{height: '40px'}}>
         <div className={"progress-bar"} role={"progressbar"} style={{width: '25%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
         </div>
 
