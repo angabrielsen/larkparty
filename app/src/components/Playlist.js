@@ -7,7 +7,7 @@ function Playlist() {
           <p className={"mb-0 lead"}>VI. Sweatpants</p>
           <p className={"mb-0 small"}>Childish Gambino</p>
         </li>
-        <li className="col-3 list-group-item rounded-0 border-0">
+        <li className="col-3 list-group-item rounded-0 border-0 text-end">
           <p className={"mb-0 small"}>Requested By</p>
           <p className={"lead"}>Ashton</p>
         </li>
@@ -19,7 +19,7 @@ function Playlist() {
           <p className={"mb-0"}>VI. Sweatpants</p>
           <p className={"mb-0 small"}>Childish Gambino</p>
         </li>
-        <li className="col-3 list-group-item rounded-0 align-self-center border-0">
+        <li className="col-3 list-group-item rounded-0 align-self-center border-0 text-end">
           <p className={"mb-0"}>Ashton</p>
         </li>
       </ul>
