@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Header from './components/Header.js';
 import Playlist from './components/Playlist.js';
 import Album from './components/Album.js';
