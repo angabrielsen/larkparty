@@ -1,6 +1,6 @@
 function Playlist() {
   return (
-    <div className={"bg-secondary"}>
+    <div className={"playlist"}>
       <div>
         <h5 className={"mb-0 py-2 align-self-center"}>Up Next</h5>
       </div>
