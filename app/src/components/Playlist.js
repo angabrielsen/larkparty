@@ -16,11 +16,11 @@ function Playlist() {
       <ul className="list-group list-group-horizontal border-0 bg-white">
         <li className="col-1 list-group-item rounded-0 d-flex justify-content-center align-items-center border-0">2</li>
         <li className="col-8 list-group-item rounded-0 align-self-center border-0">
-          <p className={"mb-0"}>VI. Sweatpants</p>
-          <p className={"mb-0 small"}>Childish Gambino</p>
+          <p className={"mb-0"}>I Rly Rly Like You - Coast Modern Remix</p>
+          <p className={"mb-0 small"}>Baby Bulldog, Coast Modern</p>
         </li>
         <li className="col-3 list-group-item rounded-0 align-self-center border-0 text-end">
-          <p className={"mb-0"}>Ashton</p>
+          <p className={"mb-0"}>James</p>
         </li>
       </ul>
     </div>
