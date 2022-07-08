@@ -1,7 +1,14 @@
+import Header from './Header.js';
+
 function Album() {
   return (
-    <div className={"col-5"}>
-      <p>World</p>
+    <div className={"bg-warning"}>
+      <div className={"col-12 col-md-7 d-md-none bg-primary"}>
+        <Header />
+        <p>Header - Mobile</p>
+      </div>
+
+      <p>Album</p>
     </div>
   );
 }

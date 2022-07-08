@@ -1,7 +1,7 @@
 function Playlist() {
   return (
-    <div className={"col-5"}>
-      <p>World</p>
+    <div className={"bg-secondary"}>
+      <p>Playlist</p>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 function Header() {
   return (
-    <div className={"col-7"}>
-      <p>Hello</p>
+    <div className={''}>
+      <p>Header</p>
     </div>
   );
 }
