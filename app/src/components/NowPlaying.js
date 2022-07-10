@@ -1,7 +1,9 @@
 import Header from './Header.js';
-import cover from '../lifted.jpg'
 
-function Album() {
+function NowPlaying({nowPlaying}) {
+  const nowPlayingTrack = nowPlaying ? nowPlaying[0].track : ''
+  const albumCover = nowPlayingTrack ? nowPlayingTrack.album.images[0].url : ''
+
   return (
     <div className={""}>
       <div className={"col-12 col-md-7 d-md-none bg-primary"}>
@@ -9,7 +11,7 @@ function Album() {
       </div>
 
       <div>
-        <img src={cover} alt={"cover"} className={"w-100"} />
+        <img src={albumCover} alt={"cover"} className={"w-100"} />
       </div>
 
       <div className={"progress position-relative rounded-0"} style={{height: '40px'}}>
@@ -26,13 +28,13 @@ function Album() {
       </div>
 
       <div>
-        <h2 className={"mb-0"}>The Other Side of Paradise</h2>
-        <h3 className={"mb-0"}>Glass Animals</h3>
-        <p className={"lead"}>How to be a Human Being</p>
+        <h2 className={"mb-0"}>{ nowPlayingTrack.name }</h2>
+        <h3 className={"mb-0"}>{ nowPlayingTrack.album.artists[0].name }</h3>
+        <p className={"lead"}>{ nowPlayingTrack.album.name }</p>
         <p className={"small"}>Requested by Ashton</p>
       </div>
     </div>
   );
 }
 
-export default Album;
+export default NowPlaying;
