@@ -29,24 +29,6 @@ function App() {
     fetchPlaylist();
   }, [setPlaylist]);
 
-  // const fetchPlaylist = () => {
-  //   fetch(
-  //     `http://localhost:9000/playlist`,
-  //     {
-  //       method: "GET"
-  //     }
-  //   )
-  //     .then(res => res.text())
-  //     .then(res => {
-  //       setPlaylist(JSON.parse(res));
-  //     })
-  //     .catch(err => err)
-  // };
-
-  // useEffect(() => {
-  //   fetchPlaylist();
-  // }, []);
-
   return (
     <div className={"row flex-row-reverse gx-0"}>
       <div className={"col-md-5"}>
