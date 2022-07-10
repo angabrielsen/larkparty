@@ -1,6 +1,4 @@
 function Playlist({playlist}) {
-  console.log("items: ", playlist);
-
   return (
     <div className={"playlist"}>
       <div>

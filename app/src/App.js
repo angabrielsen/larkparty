@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.scss';
 import Header from './components/Header.js';
 import Playlist from './components/Playlist.js';
-import Album from './components/Album.js';
+import NowPlaying from './components/NowPlaying.js';
 
 function App() {
   const [playlist, setPlaylist] = useState({});
@@ -32,7 +32,7 @@ function App() {
   return (
     <div className={"row flex-row-reverse gx-0"}>
       <div className={"col-md-5"}>
-        <Album />
+        { isLoading ? <p>Loading...</p> : <NowPlaying nowPlaying={playlist.items} /> }
       </div>
 
       <div className={"col-md-7"}>
